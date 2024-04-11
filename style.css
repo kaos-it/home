@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left,
+.top,
+.bottom {
+    border: 2px solid black;
+}
+
+.left {
+    height: 150vh;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    gap: 5px;
+
+
+}
+
+.right {
+    width: 60%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+    /* padding-bottom:35px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+i {
+    color: rgb(24, 190, 132);
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgb(253, 253, 253);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(253, 253, 253);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.language{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+.front,
+.web,
+.graphich {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.w3school,
+.london,
+.school {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.top,
+.bottom {
+    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px;
+}
+
+
+footer {
+    background-color: rgb(24, 190, 132);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+footer ul li {
+    text-align: center;
+}
+.bio ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.texts{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
